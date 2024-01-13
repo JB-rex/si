@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVITOBARBERCHOP</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #2074ace7;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .barbershop-info {
+            text-align: center;
+            padding: 20px;
+        }
+        .address {
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        .price {
+            font-weight: bold;
+            color: green;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .gallery img {
+            width: 300px;
+            margin: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        .contact-info {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            margin: 20px;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 300px;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .contact-form button {
+            width: 150px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .social-links a:hover {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to JAVITOBARBERCHOP</h1>
+    </header>
+    <div class="barbershop-info">
+        <p class="address">Direccion de la barber: Calle San Miguel 22, Zaragoza</p>
+        <p class="price">Price for a haircut: 5 euros</p>
+    </div>
+    <div class="gallery">
+        <img src="imagenes/corte1.jpg" alt="Barbershop Image 1">
+        <img src="imagenes/corte2.jpg" alt="Barbershop Image 2">
+        <img src="imagenes/corte3.jpg" alt="Barbershop Image 3">
+        <!-- Add more images as needed -->
+    </div>
+    <div class="contact-info">
+        <h2>La info de la cabra:</h2>
+        <p>Name: Javier Lemus</p>
+        <p>Phone: 643616693</p>
+        <p>Email: <a href="mailto:Javirex829@gmail.com">Javirex829@gmail.com</a></p>
+        <div class="contact-form">
+            <h3> Tirame la data por aqui:</h3>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button type="button">Send Message</button>
+        </div>
+        <div class="social-links">
+            <a href="https://www.instagram.com/_javiir_/" target="_blank">Instagram</a>
+            <a href="https://wa.me/34643616693" target="_blank">WhatsApp</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 JAVITOBARBERCHOP - Your Friendly Barbershop</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
